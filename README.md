@@ -58,5 +58,7 @@ git clone https://github.com/SYED-M-HUSSAIN/Microbial-cell-segmentation.git
 https://microbial-cell-detection-yolov8.streamlit.app/
 
 ```
-
-
+## References:
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Streamlit](https://streamlit.io/)
+- [Deploying an Image Segmentation](https://dev.to/afrologicinsect/deploying-an-image-segmentation-web-application-with-yolov8-and-streamlit-pt1-24g0)
