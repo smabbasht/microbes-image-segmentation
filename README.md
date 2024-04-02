@@ -5,10 +5,12 @@ This project implements a web application for real-time detection and segmentati
 ## Overview
 
 Microbial cell detection is essential in various fields, including environmental monitoring, public health, and biotechnology. This application provides a user-friendly interface for researchers and practitioners to quickly and accurately identify microbial cells in images.
+![Your GIF](https://github.com/SYED-M-HUSSAIN/Microbial-cell-segmentation/blob/main/readmefiles/demo1.gif)
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/SYED-M-HUSSAIN/Microbial-cell-segmentation/blob/main/readmefiles/img1.png" alt="Segmented Results 1" style="width: 45%; margin-right: 10px;">
     <img src="https://github.com/SYED-M-HUSSAIN/Microbial-cell-segmentation/blob/main/readmefiles/img2.png" alt="Segmented Results 2" style="width: 45%; margin-left: 10px;">
 </div>
+
 
 ## Features
 
