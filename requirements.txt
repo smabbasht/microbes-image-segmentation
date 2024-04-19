@@ -5,3 +5,7 @@ ultralytics==8.0.119
 streamlit==1.23.1
 Pillow==9.5.0
 dill
+textblob
+scipy
+pytesseract
+scikit-learn
