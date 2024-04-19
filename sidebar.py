@@ -14,20 +14,22 @@ Just upload your image, and it will be segmented in real-time.
 )
     st.sidebar.divider()
 
+    uploaded_image_path="Images/check.png"
     uploaded_file = st.sidebar.file_uploader("Drop a JPG/PNG file", accept_multiple_files=False, type=['jpg', 'png'])
     if uploaded_file is not None:
         uploaded_image_path = convert_to_jpg(uploaded_file)
         st.sidebar.success("File saved successfully")
 
     test_images = {        
-        "Image 1": "check1.png",
-        "Image 2": "check2.png",
-        "Image 3": "check3.png",
-        "Image 4": "check.png"
+        "Image 1": "Images/check1.png",
+        "Image 2": "Images/check2.png",
+        "Image 3": "Images/check3.png",
+        "Image 4": "Images/check.png"
+        "Uploaded Image": uploaded_image_path 
     }
     selected_test_image = st.sidebar.selectbox("Select Test Image", list(test_images.keys()))
     if selected_test_image:
-        img_file = os.path.join('Images', test_images[selected_test_image])
+        img_file = test_images[selected_test_image]
 
     names_list = detect_microbes(model, img_file)
 
