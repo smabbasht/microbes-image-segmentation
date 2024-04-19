@@ -19,11 +19,11 @@ Just upload your image, and it will be segmented in real-time.
         uploaded_image_path = convert_to_jpg(uploaded_file)
         st.sidebar.success("File saved successfully")
 
-    test_images = {
-        "Image 1": "/home/hussain/img-segmentation/Images/check1.png",
-        "Image 2": "/home/hussain/img-segmentation/Images/check2.png",
-        "Image 3": "/home/hussain/img-segmentation/Images/check3.png",
-        "Image 4": "/home/hussain/img-segmentation/Images/check.png"
+    test_images = {        
+        "Image 1": "./Images/check1.png",
+        "Image 2": "./Images/check2.png",
+        "Image 3": "./Images/check3.png",
+        "Image 4": "./Images/check.png"
     }
     selected_test_image = st.sidebar.selectbox("Select Test Image", list(test_images.keys()))
     if selected_test_image:
