@@ -20,10 +20,10 @@ Just upload your image, and it will be segmented in real-time.
         st.sidebar.success("File saved successfully")
 
     test_images = {        
-        "Image 1": "./Images/check1.png",
-        "Image 2": "./Images/check2.png",
-        "Image 3": "./Images/check3.png",
-        "Image 4": "./Images/check.png"
+        "Image 1": "check1.png",
+        "Image 2": "check2.png",
+        "Image 3": "check3.png",
+        "Image 4": "check.png"
     }
     selected_test_image = st.sidebar.selectbox("Select Test Image", list(test_images.keys()))
     if selected_test_image:
