@@ -50,4 +50,4 @@ Just upload your image, and it will be segmented in real-time.
     st.markdown('')
     st.markdown('')
     st.sidebar.divider()
-    st.sidebar.info("Made with ❤ by the Abbas, Hussain, Safi & Samin")
+    st.sidebar.info("Made with ❤ by the team of \nAbbas, Hussain, Safi & Samin")
