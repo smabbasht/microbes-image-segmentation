@@ -6,6 +6,7 @@ import streamlit as st
 from ultralytics import YOLO
 from streamlit_image_comparison import image_comparison
 
+model = YOLO('yolov8n.pt')  # load an official model to tackle debugging errors
 model = YOLO('best.pt')
 
 import streamlit as st
